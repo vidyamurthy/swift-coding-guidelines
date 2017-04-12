@@ -3,6 +3,7 @@
 
 **Swift Best Practices**
 
+
 **Naming**
 
 As per the Swift Programming Language, type names should be upper camel case (example: “`VideoPlayerViewController`”).
@@ -334,19 +335,16 @@ All fetch requests should be constructed as:
 
     let fetchRequest : NSFetchRequest<Item> = Item.fetchRequest()
 
-The array that holds the result value should be of type `[Item]` and not `NSArray`
-`NSFetchRequest` is now generic. `NSFetchedResultsController` is generic too. Therefore, when declaring variables, you have to use a generic declaration, e.g.:
+The array that holds the result value should be of type `[Item]` and not `NSArray`.
+`NSFetchRequest` is now generic, and `NSFetchedResultsController` is generic too. Therefore, when declaring variables, you have to use a generic declaration, e.g.:
  
-
     var fetchedResultsController: NSFetchedResultsController<Item>?
 
 **References**
+
 https://developer.apple.com/library/content/documentation/Swift/Conceptual/Swift_Programming_Language/TheBasics.html#//apple_ref/doc/uid/TP40014097-CH5-ID309
-
 https://github.com/raywenderlich/swift-style-guide
-
 https://github.com/schwa/Swift-Community-Best-Practices
-
 https://www.toptal.com/swift/tips-and-practices
 
 
