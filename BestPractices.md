@@ -343,8 +343,11 @@ The array that holds the result value should be of type `[Item]` and not `NSArra
 **References**
 
 https://developer.apple.com/library/content/documentation/Swift/Conceptual/Swift_Programming_Language/TheBasics.html#//apple_ref/doc/uid/TP40014097-CH5-ID309
+
 https://github.com/raywenderlich/swift-style-guide
+
 https://github.com/schwa/Swift-Community-Best-Practices
+
 https://www.toptal.com/swift/tips-and-practices
 
 
